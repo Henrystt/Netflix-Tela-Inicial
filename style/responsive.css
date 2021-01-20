@@ -1,0 +1,33 @@
+@media screen and (max-width:493px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 130px;
+        height: 60px;
+    }
+
+    .box-filme{
+        height: 40% ;
+    }
+
+    .filme-principal{
+        background:url(../img/Principal2.jpg);
+        background-size: cover;
+    }
+
+    .titulo{
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    }
+
+    .filme-principal .descricao{
+        margin-bottom: 10px;
+    }
+
+}
+
+
